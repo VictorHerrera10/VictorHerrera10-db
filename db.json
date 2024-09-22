@@ -11,7 +11,7 @@
       "obligatory": 12,
       "electives": 6
     },
-    "photo": "https://res.cloudinary.com/djia8bsvr/image/upload/v1726960494/lgo85j9pcoqysduke6im.jpg"
+    "photo": "https://example.com/photos/victor_herrera.png"
   },
   "courses": [
     {
@@ -20,8 +20,38 @@
       "type": "Obligatorio",
       "credits": 4,
       "status": "Pendiente",
-      "sections": 4,
-      "mode": "Presencial/Virtual"
+      "sections": [
+        {
+          "section_id": "A1",
+          "professor": "Dr. Carlos Martínez",
+          "schedule": [
+            {
+              "day": "Lunes",
+              "time": "08:00 - 10:00"
+            },
+            {
+              "day": "Miércoles",
+              "time": "08:00 - 10:00"
+            }
+          ],
+          "mode": "Presencial"
+        },
+        {
+          "section_id": "A2",
+          "professor": "Dra. Ana Salazar",
+          "schedule": [
+            {
+              "day": "Martes",
+              "time": "10:00 - 12:00"
+            },
+            {
+              "day": "Jueves",
+              "time": "10:00 - 12:00"
+            }
+          ],
+          "mode": "Virtual"
+        }
+      ]
     },
     {
       "id": "SX569",
@@ -29,26 +59,23 @@
       "type": "Obligatorio",
       "credits": 3,
       "status": "Inscrito",
-      "sections": 1,
-      "mode": "Presencial"
-    },
-    {
-      "id": "SX569",
-      "name": "Física 2",
-      "type": "Obligatorio",
-      "credits": 4,
-      "status": "Pendiente",
-      "sections": 4,
-      "mode": "Presencial/Virtual"
-    },
-    {
-      "id": "SX569",
-      "name": "Cálculo 2",
-      "type": "Obligatorio",
-      "credits": 3,
-      "status": "Inscrito",
-      "sections": 1,
-      "mode": "Presencial"
+      "sections": [
+        {
+          "section_id": "B1",
+          "professor": "Ing. Pedro García",
+          "schedule": [
+            {
+              "day": "Lunes",
+              "time": "14:00 - 16:00"
+            },
+            {
+              "day": "Viernes",
+              "time": "14:00 - 16:00"
+            }
+          ],
+          "mode": "Presencial"
+        }
+      ]
     },
     {
       "id": "TF968",
@@ -56,9 +83,21 @@
       "type": "Electivo",
       "credits": 3,
       "status": "Inscrito",
-      "sections": 1,
-      "mode": "Presencial"
+      "sections": [
+        {
+          "section_id": "C1",
+          "professor": "Lic. Laura Fernández",
+          "schedule": [
+            {
+              "day": "Miércoles",
+              "time": "18:00 - 20:00"
+            }
+          ],
+          "mode": "Presencial"
+        }
+      ]
     }
   ]
 }
+
 
